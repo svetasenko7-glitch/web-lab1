@@ -1,0 +1,92 @@
+body {
+	max-width: 1440px;
+    color: rgba(0, 0, 0.4);
+    line-height: 1.6;
+    margin: 40px auto;
+    font-family: sans-serif;
+}
+
+.content{
+	margin: 65px auto 70px auto;
+}
+.section-1{
+	max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-2{
+	max-width:1020px;
+	margin: 80px auto 70px auto;
+}
+
+h1 {
+    font-size: 40px;
+	margin-bottom: 16px;
+	line-height: 45px;
+}
+
+h2 {
+    margin: 42px 0 8px 0;
+	font-size: 32px;
+	line-height: 36px;
+}
+
+h3 {
+    margin: 35px 0 7px 0;
+	font-size: 28px;
+	line-height: 34px;
+}
+h3.under-h2{
+	margin-top:38px;
+}
+h4 {
+    margin: 32px 0 8px 0;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+blockquote{
+	border-left: 3px solid;
+    padding-left: 17px;
+    margin: 0px 0px 29px -17px;
+    font-size: 20px;
+    line-height: 34px;
+	font-style: italic;
+}
+
+p {
+    margin-bottom: 29px;
+	font-size: 20px;
+	line-height: 34px;
+	margin-top:0px;
+}
+p.lead{
+	color: rgb(159 159 159);
+    line-height: 32px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+ul {
+	font-size: 20px;
+    line-height: 34px;
+    padding-left: 28px;
+}
+
+li {
+    margin-bottom: 17px;
+	padding-left: 2px;
+}
+.image-full{
+	width: 100%;
+    filter: sepia(50%) hue-rotate(160deg) saturate(450%);
+    opacity: 0.7;
+}
+
+
+a {
+	color: red;
+}
+
+a:hover{
+	opacity: .4;
+}
